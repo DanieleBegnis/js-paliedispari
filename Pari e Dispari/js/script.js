@@ -2,7 +2,6 @@
 const evenOrOddUser = prompt('scegli pari o dispari');
 const numberUser = parseInt(prompt('scrivi un numero da 1 a 5'));
 console.log(evenOrOddUser, numberUser);
-// let userNumberEvenOrOdd = isEvenOrOdd(evenOrOddUser);
 
 //Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 const randNumber = getRndInteger(1, 5);
@@ -21,10 +20,10 @@ function sommaNumeri(num1, num2) {
     return sum;
 }
 
-let pippo = isEvenOrOdd(numSum)
+let finalNumber = isEvenOrOdd(numSum)
 
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
-function isEvenOrOdd(a) {
+function isEvenOrOdd() {
     let evenOrOdd;
     
     if(numSum % 2 === 0) {
@@ -36,7 +35,7 @@ function isEvenOrOdd(a) {
 }
 //Dichiariamo chi ha vinto.
 //console.log(userNumberEvenOrOdd)
-if(evenOrOddUser === pippo) {
+if(evenOrOddUser === finalNumber) {
     alert('hai vinto!');
 } else {
     alert('hai perso!');
