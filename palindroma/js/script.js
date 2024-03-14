@@ -16,6 +16,6 @@ function reverseWord (word) {
 }
 
 //controllo se la parola invertita è uguale a quella non invertita
-if(palindromeWordanna === userWord) {
+if(palindromeWord === userWord) {
     alert('la parola è palindroma')
 }
